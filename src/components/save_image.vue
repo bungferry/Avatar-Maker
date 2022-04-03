@@ -21,7 +21,7 @@ export default {
       // method seems to be the standard way of starting a download
       const downloadLink = document.createElement('a');
       downloadLink.href = imageURL;
-      downloadLink.download = 'avatar.png';
+      downloadLink.download = 'avatar-by-ferry-ayunda.png';
       document.body.appendChild(downloadLink);
       downloadLink.dispatchEvent(
           new MouseEvent('click', { 
